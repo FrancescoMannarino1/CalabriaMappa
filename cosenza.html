@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cosenza</title>
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Coat_of_arms_of_Calabria.svg/933px-Coat_of_arms_of_Calabria.svg.png"/>
+    <style>
+      body {
+	  margin: 0;
+	  }
+ .sfondo1 {
+        background-image:url('D:/Lavoro Calabria/Immagini/rende immagine.jpg');
+        height: 100vh;
+        background-position: center;	
+        background-size: cover;
+       }  
+		 .sfondo2 {
+        background-image:url('D:/Lavoro Calabria/Immagini/cosenza immagine.jpg');
+        height: 100vh;
+		background-position: center;
+        background-size: cover;
+         }
+		  .sfondo3 { 
+        background-image:url('D:/Lavoro Calabria/Immagini/quattromiglia immagine.jpg');
+        height: 100vh; 
+		background-position: center;
+        background-size: cover;
+         }
+	  h1 {
+	  margin-top: -60px; 
+	  margin-left: 90px;
+	  }
+      .circle {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        overflow: hidden;
+        top: 2507px;
+        position: absolute;
+        left: 816px;
+        border: 1px solid white;
+		cursor: pointer;
+      }
+
+      .circle img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+.circle:hover {
+	transform:scale(3);
+         }    
+      #panel {
+      display: none;
+      margin-top: 70px;
+      border: 2px solid black;
+      padding: 10px;
+      width: 350px;
+      background-color: rgba(255, 255, 255, 0.7);
+      position: fixed;
+	  z-index: 9999;
+	  
+              } 
+      .circle1 {
+        width: 27px;
+        height: 40px;
+        border-radius: 50%;
+        overflow: hidden;
+        top: 2158px;
+        position: absolute;
+        left: 280px;
+        border: 1px solid white;
+		cursor: pointer;
+		transform: rotate(-10deg);
+      }
+
+      .circle1 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+	  .circle1:hover {
+	transform:scale(3);
+	}
+	 #panel1 {
+	    display: none;
+      margin-top: 70px;
+      border: 2px solid black;
+      padding: 10px;
+      width: 350px;
+      background-color: rgba(255, 255, 255, 0.7);  
+	  position: fixed;
+	  z-index: 9999;
+	 }
+	       .chiesa {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        overflow: hidden;
+        top: 2758px;
+        position: absolute;
+        left: 1044px;
+        border: 1px solid white;
+		cursor: pointer;
+      }
+
+      .chiesa img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+	  .chiesa:hover {
+	transform:scale(3);
+	}
+	 #panel2 {
+	    display: none;
+      margin-top: 70px;
+      border: 2px solid black;
+      padding: 10px;
+      width: 350px;
+      background-color: rgba(255, 255, 255, 0.7);  
+	  position: fixed;
+	  z-index: 9999;
+	 }
+	  .duomo {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        overflow: hidden;
+        top: 2774px;
+        position: absolute;
+        left: 951px;
+        border: 1px solid white;
+		cursor: pointer;
+      }
+
+      .duomo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+	  .duomo:hover {
+	transform:scale(3);
+	}
+	 #panel3 {
+	    display: none;
+      margin-top: 40px;
+      border: 2px solid black;
+      padding: 10px;
+      width: 350px;
+      background-color: rgba(255, 255, 255, 0.7);  
+	  position: fixed;
+	  z-index: 9999;
+	 }
+	  .ponte {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        overflow: hidden;
+        top: 2506px;
+        position: absolute;
+        left: 960px;
+        border: 1px solid white;
+		cursor: pointer;
+      }
+
+      .ponte img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+	  .ponte:hover {
+	transform:scale(3);
+	}
+	 #panel4 {
+	    display: none;
+      margin-top: 40px;
+      border: 2px solid black;
+      padding: 10px;
+      width: 350px;
+      background-color: rgba(255, 255, 255, 0.7);  
+	  position: fixed;
+	  z-index: 9999;
+	 }
+ .unical {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        overflow: hidden;
+        top: 608px;
+        position: absolute;
+        left: 169px;
+        border: 1px solid white;
+		cursor: pointer;
+      }
+
+      .unical img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+	  .unical:hover {
+	transform:scale(3);
+	}
+	 #panel5 {
+	    display: none;
+      border: 2px solid black;
+      padding: 10px;
+      width: 370px;
+      background-color: rgba(255, 255, 255, 0.7);  
+	  position: fixed;
+	  z-index: 9999;
+	  top: 100px;
+	 }
+    </style>
+  </head>
+  <body>
+  <div class="sfondo3">
+  <a class="freccia" href="D:\Lavoro Calabria\Calabria++.html">
+  <img src="https://cdn-icons-png.flaticon.com/512/0/340.png" alt="freccia" height="50px" width="50px"> 
+  </a>
+  <h1 style="font-family: Impact; font-size:80px;"> COSENZA </h1> 
+ <div class="circle" onclick="document.getElementById('panel').style.display='block'">
+    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/b0/fb/d4/20210228-180101-largejpg.jpg?w=600&h=400&s=1" alt="mazzini">
+      </div>
+  <div id="panel">
+  <div class="x" onclick="document.getElementById('panel').style.display='none'">
+  <img src="https://cdn-icons-png.freepik.com/512/75/75519.png" alt="X" height="10px" width="10px" style="cursor:pointer; position: absolute;">
+   </div>
+   <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/San_Giorgio_e_il_drago_%281%29.jpg" alt="mazzini" height="300px" width="350px">
+   <h2 style="font-size:30px;"> Corso Mazzini </h2>
+   <p> Corso Giuseppe Mazzini è il cuore di Cosenza, una delle principali vie pedonali della città, ideale per passeggiare e fare shopping. Lungo il corso si trovano negozi, boutique, caffè e ristoranti, frequentati da famiglie, giovani e turisti. Una sua caratteristica distintiva è il Museo all’Aperto Bilotti (MAB), che trasforma la strada in una galleria d’arte con opere di artisti come Salvador Dalí, Giorgio De Chirico e Mimmo Rotella, donazioni dei mecenati Carlo ed Enzo Bilotti. Il corso unisce architettura storica e moderna, con pavimentazione in pietra e isole verdi che rendono piacevole la passeggiata. Durante le festività, luci e decorazioni lo rendono ancora più suggestivo. Collegato al centro e facilmente raggiungibile, Corso Mazzini è un luogo simbolo di shopping, arte e cultura a Cosenza. </p>
+   </div>
+   <div class="circle1" onclick="document.getElementById('panel1').style.display='block'">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Stadio_San_Vito-Marulla_-_Cosenza.jpg/1200px-Stadio_San_Vito-Marulla_-_Cosenza.jpg" alt="stadiocosenza">
+	 </div>
+   <div id="panel1">
+   <div class="x" onclick="document.getElementById('panel1').style.display='none'">
+   <img src="https://cdn-icons-png.freepik.com/512/75/75519.png" alt="X" height="10px" width="10px" style="cursor:pointer; position: absolute;">
+   </div>
+   <img src="https://upload.wikimedia.org/wikipedia/it/e/ed/Cosenza_Calcio_logo.svg" alt="stadiocosenza" height="300px" width="350px">
+   <h2 style="font-size:30px;"> Stadio San Vito </h2>
+   <p> Lo Stadio San Vito – Gigi Marulla è lo stadio principale della città di Cosenza ed è uno dei più antichi d’Italia ancora in uso. Fu inaugurato nel 1914 e per molto tempo fu conosciuto solo come Stadio San Vito, dal nome del quartiere in cui si trova. Nel 2015 è stato dedicato a Gigi Marulla, storico capitano e simbolo del Cosenza Calcio, molto amato dai tifosi. Lo stadio può contenere circa 20.000 spettatori ed è il luogo dove la squadra del Cosenza Calcio gioca le sue partite casalinghe. Nel corso degli anni ha subito diversi lavori di ristrutturazione per renderlo più sicuro e accogliente. Oltre al calcio, il San Vito ha ospitato anche concerti e grandi eventi, diventando un punto di ritrovo importante per la città. Oggi è considerato un luogo simbolico per i cosentini, perché rappresenta la passione sportiva e l’affetto per la propria squadra e per Gigi Marulla. </p>
+   </div>
+    <div class="chiesa" onclick="document.getElementById('panel2').style.display='block'">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Museo_Brettii_Enotri_-_Complesso_di_Sant%27Agostino%2C_sede_del_museo_dal_2009.jpg/330px-Museo_Brettii_Enotri_-_Complesso_di_Sant%27Agostino%2C_sede_del_museo_dal_2009.jpg" alt="chiesa">
+	 </div>
+   <div id="panel2">
+   <div class="x" onclick="document.getElementById('panel2').style.display='none'">
+   <img src="https://cdn-icons-png.freepik.com/512/75/75519.png" alt="X" height="10px" width="10px" style="cursor:pointer; position: absolute;">
+   </div>
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Museo_Brettii_Enotri_-_Complesso_di_Sant%27Agostino%2C_sede_del_museo_dal_2009.jpg/330px-Museo_Brettii_Enotri_-_Complesso_di_Sant%27Agostino%2C_sede_del_museo_dal_2009.jpg"  alt="chiesa" height="300px" width="350px">
+   <h2> Museo dei Bretti e degli Enotri </h2>
+   <p> Il Museo dei Brettii e degli Enotri si trova nel centro storico di Cosenza, dentro l’antico Complesso di Sant’Agostino, che in passato fu un convento e poi un carcere. Raccoglie e racconta la storia dei popoli antichi della Calabria, in particolare gli Enotri e i Brettii, che vissero nel territorio prima e durante l’epoca romana. Nel museo si possono vedere vasi, armi, oggetti in bronzo, monete e corredi funerari provenienti da importanti scavi, come quello della necropoli di Torre Mordillo. Il percorso segue un ordine cronologico, dalla preistoria fino all’età romana. Oggi il museo ospita anche mostre, visite guidate e attività didattiche, ed è un punto di riferimento per conoscere la storia e la cultura antica di Cosenza e della Calabria. <p>
+  </div>
+  <div class="duomo" onclick="document.getElementById('panel3').style.display='block'">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Cosenza%2C_duomo%2C_esterno%2C_facciata_del_xiii_secolo%2C_01.jpg" alt="duomo">
+	 </div>
+   <div id="panel3">
+   <div class="x" onclick="document.getElementById('panel3').style.display='none'">
+   <img src="https://cdn-icons-png.freepik.com/512/75/75519.png" alt="X" height="10px" width="10px" style="cursor:pointer; position: absolute;">
+   </div>
+   <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Cosenza%2C_duomo%2C_esterno%2C_facciata_del_xiii_secolo%2C_01.jpg" alt="duomo" height="300px" width="350px">
+   <h2> Duomo di santa maria assunta </h2>
+   <p> Il Duomo di Cosenza, o Cattedrale di Santa Maria Assunta, è il principale edificio religioso della città e sede dell’arcidiocesi di Cosenza-Bisignano. Si trova in Piazza Duomo, nel cuore del centro storico, lungo Corso Telesio. Le origini del Duomo risalgono all’XI secolo, ma fu ricostruito dopo il terremoto del 1184 e consacrato nel 1222 alla presenza dell’imperatore Federico II. Nel 2011 l’UNESCO lo ha riconosciuto “Patrimonio testimone di cultura di pace”. L’edificio mostra elementi romanici, gotici e barocchi, frutto delle diverse fasi di costruzione e ristrutturazione. All’esterno si possono ammirare tre portali e un grande rosone centrale, mentre all’interno l’impianto a tre navate ospita cappelle barocche, tra cui quella dedicata alla Madonna del Pilerio. Si trovano anche il Mausoleo di Isabella d’Aragona e un antico sarcofago chiamato “di Meleagro”. I restauri hanno rivelato resti paleocristiani e romani sotto la cattedrale, mostrando l’antica storia del sito.</p>
+ </div>
+ <div class="ponte" onclick="document.getElementById('panel4').style.display='block'">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Ponte_San_Francesco_da_Paola-_Cosenza.jpg" alt="ponte">
+	 </div>
+   <div id="panel4">
+   <div class="x" onclick="document.getElementById('panel4').style.display='none'">
+   <img src="https://cdn-icons-png.freepik.com/512/75/75519.png" alt="X" height="10px" width="10px" style="cursor:pointer; position: absolute;">
+   </div>
+  <img src="https://media-cdn.tripadvisor.com/media/photo-s/11/f7/d8/02/altezza-104-metri-lunghezza.jpg" width="350px" height="300px">
+  <h2> Ponte di San Francesco di Paola </h2>
+  <p> Il Ponte di San Francesco di Paola è uno dei simboli moderni della città di Cosenza. È un ponte particolare e famoso per la sua forma elegante e innovativa, che lo fa sembrare quasi una grande arpa o un arco teso nel cielo. È stato progettato dall’architetto Santiago Calatrava e inaugurato nel 2018. Collega la parte nuova della città con quella più antica, attraversando il fiume Crati. Il ponte è lungo circa 140 metri e ha un grande arco inclinato alto più di 80 metri, visibile da lontano e caratteristico come una vera opera d’arte contemporanea. È chiamato “Ponte di San Francesco di Paola” in onore del santo patrono della Calabria. Oltre alla sua funzione di collegamento, rappresenta anche il simbolo del rinnovamento e della modernità di Cosenza, unendo tradizione e futuro. </p>
+  </div>
+<div class="unical" onclick="document.getElementById('panel5').style.display='block'">
+     <img src="https://ecodellojonio.b-cdn.net/media/posts/23/09/1695979868.jpg?aspect_ratio=16:9&width=785" alt="unical">
+	 </div>
+   <div id="panel5">
+   <div class="x" onclick="document.getElementById('panel5').style.display='none'">
+   <img src="https://cdn-icons-png.freepik.com/512/75/75519.png" alt="X" height="10px" width="10px" style="cursor:pointer; position: absolute;">
+   </div>
+   <img src="https://www.unical.it/media/medias/2022/unical_-_campus.webp" width="350px" height="300px">
+   <h2> Unical </h2>
+   <p style="font-size: 14.5px;"> L’Unical, cioè l’Università della Calabria, è una delle università più grandi e importanti del Sud Italia. Si trova ad Arcavacata di Rende, vicino a Cosenza, ed è stata fondata nel 1972 con l’obiettivo di offrire ai giovani del Mezzogiorno un’università moderna, efficiente e vicina al loro territorio. Fin dall’inizio è stata pensata in modo innovativo: il suo campus è organizzato come una vera e propria città universitaria, unica nel suo genere in Italia. Il cuore dell’università è il cosiddetto “ponte”, una lunga struttura sopraelevata che attraversa tutto il campus. Su questo ponte si trovano aule, uffici, laboratori e spazi comuni, mentre intorno si estendono le residenze degli studenti, le mense, la biblioteca, i teatri, gli impianti sportivi e le aree verdi. Questo permette agli studenti di studiare, vivere e trascorrere il tempo libero nello stesso luogo, in un ambiente tranquillo e immerso nella natura. L’Unical offre molti corsi di laurea in diverse aree: ingegneria, economia, scienze naturali, informatica, lettere, lingue, filosofia, giurisprudenza, sociologia, medicina e tante altre. È anche molto attiva nella ricerca scientifica e nelle collaborazioni internazionali: ospita studenti e docenti da tutto il mondo e partecipa a numerosi progetti europei e globali. Negli ultimi anni l’università ha puntato molto anche sulla sostenibilità ambientale, sulla digitalizzazione e sull’innovazione tecnologica, diventando un centro importante per lo sviluppo culturale, economico e sociale della Calabria e del Sud Italia. </p>
+  </div>
+ </div>
+ </div>
+   <div class="sfondo1">
+   </div>
+   <div class="sfondo2">
+  </div>
+  </body>
+  </html>

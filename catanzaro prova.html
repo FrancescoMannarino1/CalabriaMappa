@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Catanzaro</title>
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Coat_of_arms_of_Calabria.svg/933px-Coat_of_arms_of_Calabria.svg.png"/>
+    <style>
+      body {
+        margin: 0;
+      }
+      .sfondo {
+        background-image: url('D:/Lavoro Calabria/Immagini/catanzaro immagine.jpg');
+        height:100vh;
+		background-size: cover;
+	    background-position: center;   
+      }
+      h1 {
+        margin-top: -68px;
+        margin-left: 90px;
+      }
+
+      .piazza {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        overflow: hidden;
+        top: 477px;
+        left: 997px;
+        position: absolute;
+        border: 1px solid white;
+        cursor: pointer;
+      }
+      .piazza img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .piazza:hover {
+        transform: scale(3);
+	    z-index:9999;
+      }
+      #panel {
+        display: none;
+        margin-top: 70px;
+        border: 2px solid black;
+        padding: 10px;
+        width: 350px;
+        background-color: rgba(255, 255, 255, 0.7);
+        position: fixed;
+        z-index: 9999;
+      }
+
+      .cattedrale {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        overflow: hidden;
+        top: 588px;
+        left: 1082px;
+        position: absolute;
+        border: 1px solid white;
+        cursor: pointer;
+      }
+      .cattedrale img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .cattedrale:hover {
+        transform: scale(3);
+      }
+      #panel1 {
+        display: none;
+        margin-top: 70px;
+        border: 2px solid black;
+        padding: 10px;
+        width: 350px;
+        background-color: rgba(255, 255, 255, 0.7);
+        position: fixed;
+        z-index: 9999;
+      }
+
+      .museo {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        overflow: hidden;
+        top: 463px;
+        left: 979px;
+        position: absolute;
+        border: 1px solid white;
+        cursor: pointer;
+      }
+      .museo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .museo:hover {
+        transform: scale(3);
+      }
+      #panel2 {
+        display: none;
+        margin-top: 70px;
+        border: 2px solid black;
+        padding: 10px;
+        width: 350px;
+        background-color: rgba(255, 255, 255, 0.7);
+        position: fixed;
+        z-index: 9999;
+      }
+
+      .ponte {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        overflow: hidden;
+        top: 560px;
+        left: 930px;
+        position: absolute;
+        border: 1px solid white;
+        cursor: pointer;
+      }
+      .ponte img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .ponte:hover {
+        transform: scale(3);
+      }
+      #panel3 {
+        display: none;
+        margin-top: 40px;
+        border: 2px solid black;
+        padding: 10px;
+        width: 350px;
+        background-color: rgba(255, 255, 255, 0.7);
+        position: fixed;
+        z-index: 9999;
+      }
+
+      .campo {
+        width: 43px;
+        height: 27px;
+        border-radius: 50%;
+        overflow: hidden;
+        top: 232px;
+        left: 988px;
+        position: absolute;
+        border: 1px solid white;
+        cursor: pointer;
+      }
+      .campo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .campo:hover {
+        transform: scale(3);
+      }
+      #panel4 {
+        display: none;
+        margin-top: 40px;
+        border: 2px solid black;
+        padding: 10px;
+        width: 350px;
+        background-color: rgba(255, 255, 255, 0.7);
+        position: fixed;
+        z-index: 9999;
+      }
+    </style>
+  </head>
+  <body>
+      <div class="sfondo">
+     <a href="D:\Lavoro Calabria\Calabria++.html"> <img src="https://cdn-icons-png.flaticon.com/512/0/340.png" alt="freccia" height="50px" width="50px"> </a>
+      <h1 style="font-family: Impact; font-size:80px;"> Catanzaro </h1> 
+      <div class="piazza" onclick="document.getElementById('panel').style.display='block'">
+        <img src="https://www.comune.catanzaro.it/files/old/Gallery/Nuova-Piazza-Matteotti/_DSC9709.jpg" alt="piazza matteotti">
+      </div>
+      <div id="panel">
+        <div class="x" onclick="document.getElementById('panel').style.display='none'">
+          <img src="https://cdn-icons-png.freepik.com/512/75/75519.png" alt="X" height="10px" width="10px" style="cursor:pointer; position: absolute;">
+        </div>
+        <img src="https://www.comune.catanzaro.it/files/old/Gallery/Nuova-Piazza-Matteotti/_DSC9709.jpg" height="300px" width="350px">
+        <h2>Piazza Matteotti</h2>
+        <p>Piazza Matteotti è il cuore del centro storico di Catanzaro e uno dei luoghi più frequentati della città. È circondata da palazzi storici, negozi, bar e caffè, che la rendono un punto d’incontro vivace per cittadini e turisti. La piazza è un luogo ideale per passeggiare, rilassarsi e osservare la vita quotidiana della città. Durante l’anno ospita eventi culturali, mercati e manifestazioni, diventando un centro di attività sociale e culturale. La sua posizione centrale permette di raggiungere facilmente le vie principali del centro storico, rendendo Piazza Matteotti un simbolo della vitalità e della storia di Catanzaro.</p>
+      </div>
+
+      <div class="cattedrale" onclick="document.getElementById('panel1').style.display='block'">
+        <img src="https://www.meravigliedicalabria.it/wp-content/themes/yootheme/cache/88/2222-scaled-8884d1cd.jpeg" alt="cattedrale">
+      </div>
+      <div id="panel1">
+        <div class="x" onclick="document.getElementById('panel1').style.display='none'">
+          <img src="https://cdn-icons-png.freepik.com/512/75/75519.png" alt="X" height="10px" width="10px" style="cursor:pointer; position: absolute;">
+        </div>
+        <img src="https://www.meravigliedicalabria.it/wp-content/themes/yootheme/cache/88/2222-scaled-8884d1cd.jpeg" height="300px" width="350px">
+        <h2>Cattedrale di Catanzaro</h2>
+        <p>La Cattedrale di Catanzaro, dedicata a San Giovanni Battista, rappresenta il principale luogo di culto della città e uno dei simboli più importanti del suo patrimonio storico e artistico. L’edificio combina elementi architettonici di diverse epoche, riflettendo le trasformazioni subite nel corso dei secoli, e al suo interno conserva opere d’arte, affreschi e oggetti di valore storico e religioso. La cattedrale è situata nel cuore del centro storico e costituisce un punto di riferimento per i fedeli, ma anche per i turisti che vogliono scoprire la storia e la cultura della città. Oltre alla funzione religiosa, l’edificio svolge un ruolo fondamentale nella vita culturale di Catanzaro, ospitando eventi, celebrazioni e momenti di aggregazione per la comunità locale. La sua bellezza architettonica e artistica rende la visita un’esperienza ricca di fascino e di significato storico.</p>
+      </div>
+
+      <div class="museo" onclick="document.getElementById('panel2').style.display='block'">
+        <img src="https://media.cultura.gov.it/mibac/files/boards/bec8803f226b6c1f1d4be3ed98d36b8e/calabria/683.jpg" alt="museo arti">
+      </div>
+      <div id="panel2">
+        <div class="x" onclick="document.getElementById('panel2').style.display='none'">
+         <img src="https://cdn-icons-png.freepik.com/512/75/75519.png" alt="X" height="10px" width="10px" style="cursor:pointer; position: absolute;">
+        </div>
+        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/255000/255382-Marca-Art-Museum.jpg?impolicy=fcrop&w=450&h=280&q=medium" height="300px" width="350px">
+        <h2>Museo delle Arti</h2>
+        <p>Il Museo delle Arti di Catanzaro conserva collezioni di arte moderna e contemporanea, offrendo uno spazio dove i visitatori possono conoscere artisti locali e nazionali. Fondato per valorizzare la creatività e la cultura della città, ospita mostre temporanee e attività educative che rendono la visita interessante per adulti e bambini. Il museo è situato in un edificio storico e rappresenta un punto di riferimento culturale importante, unendo la storia artistica della Calabria con le nuove tendenze artistiche. È un luogo dove arte, educazione e curiosità si incontrano, contribuendo alla vita culturale e sociale di Catanzaro.</p>
+      </div>
+
+      <div class="ponte" onclick="document.getElementById('panel3').style.display='block'">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Viadotto_Bisantis%2C_Catanzaro.jpg/330px-Viadotto_Bisantis%2C_Catanzaro.jpg" alt="ponte bisantis">
+      </div>
+      <div id="panel3">
+        <div class="x" onclick="document.getElementById('panel3').style.display='none'">
+         <img src="https://cdn-icons-png.freepik.com/512/75/75519.png" alt="X" height="10px" width="10px" style="cursor:pointer; position: absolute;">
+        </div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Viadotto_Bisantis%2C_Catanzaro.jpg/330px-Viadotto_Bisantis%2C_Catanzaro.jpg" height="300px" width="350px">
+        <h2>Ponte Bisantis</h2>
+        <p>Il Ponte Bisantis è uno dei simboli moderni di Catanzaro, costruito per collegare le diverse parti della città attraversando la valle del fiume Corace. È un ponte strallato, cioè sostenuto da grandi cavi, che unisce funzionalità e design elegante, diventando un punto di riferimento visibile da lontano. Prende il nome dalla famiglia Bisantis, importante nella storia locale, ed è stato progettato per rendere più comodi e veloci gli spostamenti in città. Oltre alla sua funzione pratica, il ponte è anche un simbolo di innovazione e sviluppo urbano, rappresentando l’unione tra tradizione e modernità. È un luogo amato dai cittadini e apprezzato dai turisti per le sue linee armoniose e le belle vedute sulla città e sul paesaggio circostante.</p>
+      </div>
+
+      <div class="campo" onclick="document.getElementById('panel4').style.display='block'">
+        <img src="https://www.calabriainchieste.it/wp-content/uploads/2023/05/Stadio-Ceravolo-2-%C2%A9-US-Catanzaro-1170x650-2.jpg" alt="campo">
+      </div>
+      <div id="panel4">
+        <div class="x" onclick="document.getElementById('panel4').style.display='none'">
+           <img src="https://cdn-icons-png.freepik.com/512/75/75519.png" alt="X" height="10px" width="10px" style="cursor:pointer; position: absolute;">
+        </div>
+        <img src="https://upload.wikimedia.org/wikipedia/it/thumb/c/c5/Stemma_US_Catanzaro_1929.svg/250px-Stemma_US_Catanzaro_1929.svg.png" height="300px" width="350px">
+        <h2>  Stadio Nicola Ceravolo</h2>
+        <p> Lo Stadio Nicola Ceravolo, aperto nel 1919, è lo stadio storico di Catanzaro e un simbolo dello sport in città. All’inizio era un campo semplice, ma con gli anni è stato ampliato e migliorato per ospitare più tifosi e avere strutture moderne. Prende il nome da Nicola Ceravolo, presidente storico del Catanzaro Calcio, che ha dedicato gran parte della sua vita a far crescere la squadra e a diffondere il calcio in città. Il suo impegno lo ha reso una figura importante per tutti i tifosi. Lo stadio è la casa della squadra del Catanzaro, conosciuta come i “Giallorossi” per i colori giallo e rosso. La squadra ha vissuto momenti importanti, giocando in Serie A e Serie B, e lo stadio è diventato un luogo di orgoglio per la città. Il Nicola Ceravolo ha visto tante generazioni di tifosi sostenere la squadra sugli spalti, diventando non solo un luogo per il calcio, ma anche un punto di incontro per la comunità. Ancora oggi resta un simbolo della passione per il calcio a Catanzaro.</p>
+      </div>
+    </div>
+  </body>
+</html>
